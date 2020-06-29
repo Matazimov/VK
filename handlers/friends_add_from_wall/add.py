@@ -36,7 +36,7 @@ if len(humans) > 0:
                 }).json()
                 if "response" in data_captcha:
                     print("[green]Верно[/green]\n"
-                          "[blue]id{humans[i]}[/blue]: Добавил")
+                          f"[blue]id{humans[i]}[/blue]: Добавил")
                 elif "error" in data_captcha:
                     if data_captcha["error"]["error_code"] == 14:
                         print("[red]Неверно[/red]")
