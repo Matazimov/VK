@@ -1,4 +1,7 @@
-# VK
+# Как запустить:
 
-1. pip install -r requirements.txt
-2. python start.py
+Сначала нужно установить зависимости, если они у вас не установлены (единоразово):
+    pip install -r requirements.txt
+
+Запускать командой:
+    python start.py
